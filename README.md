@@ -1,6 +1,8 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/profile-mobile.png">
-  <img src="assets/profile.png" alt="Jatin Gupta, jatintrace, aspiring SOC analyst. Conceptual generated notebook illustration, not actual lab evidence. Selected work: soc-lab for Wazuh/Sysmon investigations; triageai for offline triage with a mock AI provider; secureguard for Python/PHP source checks.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/profile-mobile.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile.png">
+  <source media="(max-width: 600px)" srcset="assets/profile-mobile.gif">
+  <img src="assets/profile.gif" alt="Jatin Gupta, jatintrace, aspiring SOC analyst. A brief reveal of selected work: soc-lab, triageai, and secureguard. Conceptual laptop illustration, not actual lab evidence. Repository links are below.">
 </picture>
 
 [soc-lab](https://github.com/jatintrace/soc-lab) ·
