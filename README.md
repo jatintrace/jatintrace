@@ -1,16 +1,10 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/profile-mobile.png">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile.png">
-  <source media="(max-width: 600px)" srcset="assets/profile-mobile.gif">
-  <img src="assets/profile.gif" alt="Jatin Gupta, jatintrace, aspiring SOC analyst. A brief reveal of selected work: soc-lab, triageai, and secureguard. Conceptual laptop illustration, not actual lab evidence. Repository links are below.">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-mobile.png">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile.png">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/profile-mobile-light.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-light.png">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-mobile.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile.gif">
+  <source media="(max-width: 600px)" srcset="assets/profile-mobile-light.gif">
+  <img src="assets/profile-light.gif" alt="Jatin Gupta — aspiring SOC analyst. Selected work: soc-lab, Wazuh and Sysmon investigations; triageai, Python event triage with mock AI; secureguard, Python/PHP source checks requiring human review. Currently learning Linux, networking, and Windows security events. Learning projects, not production security guarantees. Conceptual laptop illustration.">
 </picture>
-
-[soc-lab](https://github.com/jatintrace/soc-lab) ·
-[triageai](https://github.com/jatintrace/triageai) ·
-[secureguard](https://github.com/jatintrace/secureguard)
-
-Currently learning Linux, networking, and Windows security events.
-
-Also: [ProofSentinel](https://github.com/jatintrace/proofsentinel) · [SOC-IQ](https://github.com/jatintrace/SOC-IQ) · [Portfolio](https://github.com/jatintrace/Portfolio)
-
-These are learning projects. Each repository documents its scope and limitations.
